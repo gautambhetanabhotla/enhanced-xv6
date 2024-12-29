@@ -22,6 +22,9 @@ int getpid(void);
 char* sbrk(int);
 int sleep(int);
 int uptime(void);
+int getsyscount(int syscall_no);
+
+typedef unsigned int uint;
 
 // ulib.c
 int stat(const char*, struct stat*);
